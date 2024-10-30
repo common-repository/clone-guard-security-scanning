@@ -1,0 +1,122 @@
+.cgss-settings-page {
+
+}
+
+
+
+
+/**
+ *  Step 1: Purchase box
+ */
+
+.cgss-purchase {
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+    .cgss-purchase-title {
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .cgss-purchase-list {
+
+    }
+
+        .cgss-purchase-list-item {
+        }
+
+        .cgss-purchase-list-item:before {
+            content: '+';
+            margin-right: 4px;
+        }
+
+    .cgss-purchase-link {
+        display: inline-block;
+        padding: 10px 16px;
+        font-size: 14px;
+        border-radius: 5px;
+        background: #fec228;
+        border-bottom: 2px solid #cb9b20;
+        color: #000000;
+        text-decoration: none;
+    }
+
+
+
+/**
+ *  Step 2
+ */
+.cgss-settings-token {
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+    .cgss-settings-token-title {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .cgss-settings-token-img {
+        width: 600px;
+    }
+
+
+
+
+/**
+ *  Step 3: Ajax Form
+ */
+ .cgss-settings-form {
+    padding-top: 10px;
+}
+
+.cgss-settings-form-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ajax_form .form-table input[type=text],
+.settings-form-input,
+.settings-input-password {
+	width: 100%;
+	max-width: 500px;
+    margin-bottom: 6px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.ajax_form .form-table textarea {
+	width: 100%;
+	max-width: 500px;
+	height: 150px;
+	margin-bottom: 6px;
+}
+
+.ajax_form .spinner {
+	float: none;
+}
+
+.form-table th {
+    width: 80px;
+}
+
+.form-table .description {
+    margin-top: 0;
+}
+
+p.submit {
+    /* text-align: center; */
+}
+
+    p.submit #submit-btn {
+        font-size: 1.2em;
+        padding: 0px 30px;
+    }
+
+#ajax_message {
+    margin-top: 15px;
+}
